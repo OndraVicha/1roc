@@ -1,0 +1,32 @@
+table,th,td {
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    padding-left: 5px;
+	background-color: rgb(255, 255, 255,0.514);
+    }
+
+body.jap{
+    background-attachment: fixed;
+    background-image:url(img/ja.png);
+    background-size: cover;
+}
+main.container{
+    background-color: rgba(255, 255, 255, 0.87);
+}
+
+div{
+    background-color: rgba(255, 255, 255, 0.614);
+}
+h5{
+    background-color:rgba(255, 255, 255, 0.614) ;
+}
+h6{
+    background-color:rgba(255, 255, 255, 0.614) ;
+}
+header{
+    margin-top: 1.5cm;
+}
+img.gife{
+	max-width: 100%;
+	height: auto;
+}

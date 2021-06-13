@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <title>2. Světová válka</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="Edukativní projekt druhé světové válce." />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="shortcut icon" href="img/lu.png" />
+  <link rel="stylesheet" href="quiz.css" />
+</head>
+
+<body class="quiz">
+  <header class="bg-dark text-warning text-center jumbotron jumbotron-fluid mb-0">
+    <h1>2. Světová válka</h1>
+  </header>
+
+  <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top navbar-light mb-4 nvbr">
+    <a class="navbar-brand" href="#"><img src="img/svet.png" alt="Svět" height="40" /></a>
+    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+      aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavId">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li>
+          <a class="nav-link text-dark" href="index.html" aria-haspopup="true"
+            aria-expanded="false"><u><b>Menu</b></u></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false"><b>Spojenci</b> <span class="sr-only">(current)</span></a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="bri.html">Velká Británie</a>
+            <a class="dropdown-item" href="usa.html">USA</a>
+            <a class="dropdown-item" href="fra.html">Francie</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false"><b>Osa</b> <span class="sr-only">(current)</span></a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="nem.html">Německo</a>
+            <a class="dropdown-item" href="ita.html">Itálie</a>
+            <a class="dropdown-item" href="jap.html">Japonsko</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false"><b>Ostatní</b> <span class="sr-only">(current)</span></a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="sov.html">Sověti</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="quiz.html" aria-haspopup="true" aria-expanded="false"><b> Quiz</b></a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+  <i class="fas fa-arrow-circle-up scrollUp display-4"></i>
+  <main class="container">
+    <form>
+      <p class="alert alert-dark otazka">
+        1. Jak se nazývá den v roce 1944 kdy se Spojenci vylodili ve Francii?
+      </p>
+      <div class="form-group row">
+        <label for="listina" class="col-md-2 col-form-label">Den vylodění</label>
+        <div class="col-md-10">
+          <input type="text" class="form-control" name="listina" id="listina"
+            placeholder="Napište celý krycí název operace" />
+        </div>
+      </div>
+      <p class="alert alert-success odpoved collapse multi-collapse" id="odpoved1">
+        Den D (<a href="https://cs.wikipedia.org/wiki/Den_D">https://cs.wikipedia.org/wiki/Den_D</a>
+        )
+      </p>
+      <hr />
+      <p class="alert alert-dark otazka">
+        2. V kterém roce začala 2. Světová válka?
+      </p>
+      <div class="form-group row">
+        <label for="univerzita" class="col-md-2 col-form-label">Začátek války</label>
+        <div class="col-md-2">
+          <input type="number" class="form-control" name="univerzita" id="univerzita" value="1940"
+            title="Zadejte správný rok" />
+        </div>
+      </div>
+      <p class="alert alert-success odpoved collapse multi-collapse" id="odpoved2">
+        Den začátku 2. Světové války je 1. září 1939 (<a
+          href="https://cs.wikipedia.org/wiki/Druh%C3%A1_sv%C4%9Btov%C3%A1_v%C3%A1lka">https://cs.wikipedia.org/wiki/Druh%C3%A1_sv%C4%9Btov%C3%A1_v%C3%A1lka</a>
+        )
+      </p>
+      <hr />
+      <p class="alert alert-dark otazka">
+        3. Jak se nazývá dohoda o předání Sudet Němcům?
+      </p>
+      <div class="form-group row">
+        <label for="kral" class="col-md-2 col-form-label">Dohoda</label>
+        <div class="col-md-10">
+          <select class="form-control" name="kral" id="kral">
+            <option>Memelská dohoda</option>
+            <option selected>Memelská dohoda</option>
+            <option>Mnichovská dohoda</option>
+            <option>Anšlus Rakouska</option>
+          </select>
+        </div>
+      </div>
+      <p class="alert alert-success odpoved collapse multi-collapse" id="odpoved3">
+        Mnichovská dohoda (<a
+          href="https://cs.wikipedia.org/wiki/Mnichovsk%C3%A1_dohoda">https://cs.wikipedia.org/wiki/Mnichovsk%C3%A1_dohoda</a>
+        )
+      </p>
+
+      <hr />
+      <p class="alert alert-dark otazka">4. Zaškrtněte pouze Spojence.</p>
+      <div class="form-group row">
+        <label class="col-md-3 col-form-label">Spojenci</label>
+        <div class="col-md-9">
+          <div class="form-check form-check-inline">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="hacha" id="hacha" value="Hácha" />
+              Německo
+            </label>
+          </div>
+          <div class="form-check form-check-inline">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="gottwald" id="gottwald" value="Gottwald" />
+              Velká Británie
+            </label>
+          </div>
+          <div class="form-check form-check-inline">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="klaus" id="klaus" value="Klaus" />
+              Rumunsko
+            </label>
+          </div>
+          <div class="form-check form-check-inline">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="havel" id="havel" value="Havel" />
+              USA
+            </label>
+          </div>
+        </div>
+      </div>
+      <p class="alert alert-success odpoved collapse multi-collapse" id="odpoved4">
+        Velká Británie,USA (<a
+          href="https://cs.wikipedia.org/wiki/Spojenci_(druh%C3%A1_sv%C4%9Btov%C3%A1_v%C3%A1lka)">https://cs.wikipedia.org/wiki/Spojenci_(druh%C3%A1_sv%C4%9Btov%C3%A1_v%C3%A1lka)</a>
+        )
+      </p>
+
+      <hr />
+      <p class="alert alert-dark otazka">
+        5. Vyberte místo slavné tankové bitvy, která se odehrála v roce 1943
+        mezi Sověty a Němci.
+      </p>
+      <div class="form-group row">
+        <label class="col-md-3 col-form-label">Místo slavné bitvy</label>
+        <div class="col-md-9">
+          <div class="form-check form-check-inline">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="bitva" id="afrika" value="checkedValue" />
+              Afrika
+            </label>
+          </div>
+          <div class="form-check form-check-inline">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="bitva" id="sicilie" value="checkedValue" />
+              Sicílie
+            </label>
+          </div>
+          <div class="form-check form-check-inline">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="bitva" id="kursk" value="checkedValue" />
+              Kursk
+            </label>
+          </div>
+          <div class="form-check form-check-inline">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="bitva" id="ostravske_uzemi" value="checkedValue" />
+              Ostravské území
+            </label>
+          </div>
+        </div>
+      </div>
+      <p class="alert alert-success odpoved collapse multi-collapse" id="odpoved5">
+        Kursk (<a
+          href="https://cs.wikipedia.org/wiki/Bitva_v_Kursk%C3%A9m_oblouku">https://cs.wikipedia.org/wiki/Bitva_v_Kursk%C3%A9m_oblouku</a>
+        )
+      </p>
+
+      <p class="alert alert-dark otazka">
+        6. Která Maginetova linie neexistovala?
+      </p>
+      <div class="form-group row">
+        <label class="col-md-3 col-form-label">Maginotova linie</label>
+        <div class="col-md-9">
+          <div class="form-check form-check-inline">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="mag" id="sever" value="checkedValue" />
+              Severovýchodní
+            </label>
+          </div>
+          <div class="form-check form-check-inline">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="mag" id="alp" value="checkedValue" />
+              Alpská
+            </label>
+          </div>
+          <div class="form-check form-check-inline">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="maag" id="jiz" value="checkedValue" />
+              Jižní
+            </label>
+          </div>
+          <div class="form-check form-check-inline">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="mag" id="korsica" value="checkedValue" />
+              na ostrově Korsika
+            </label>
+          </div>
+        </div>
+      </div>
+      <p class="alert alert-success odpoved collapse multi-collapse" id="odpoved6">
+        Jižní
+      </p>
+      <p class="alert alert-dark otazka">
+        7. Kdo kapituloval jako první.
+      </p>
+      <div class="form-group row">
+        <label class="col-md-3 col-form-label">Kapitulace</label>
+        <div class="col-md-9">
+          <div class="form-check form-check-inline">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="kap" id="polsko" value="checkedValue" />
+              Polsko
+            </label>
+          </div>
+          <div class="form-check form-check-inline">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="kap" id="francie" value="checkedValue" />
+              Francie
+            </label>
+          </div>
+          <div class="form-check form-check-inline">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="kap" id="nizozemsko" value="checkedValue" />
+              Nizozemsko
+            </label>
+          </div>
+          <div class="form-check form-check-inline">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="kap" id="belgie" value="checkedValue" />
+              Belgie
+            </label>
+          </div>
+        </div>
+      </div>
+      <p class="alert alert-success odpoved collapse multi-collapse" id="odpoved7">
+        Polsko (<a
+          href="https://cs.wikipedia.org/wiki/Invaze_do_Polska_(1939)">https://cs.wikipedia.org/wiki/Invaze_do_Polska_(1939)</a>
+        )
+      </p>
+
+      <p class="alert alert-dark otazka">
+        8. Krycí název operace útoku na SSSR .
+      </p>
+      <div class="form-group row">
+        <label class="col-md-3 col-form-label">Název operace</label>
+        <div class="col-md-9">
+          <div class="form-check form-check-inline">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="sssr" id="blau" value="checkedValue" />
+              Operace Blau
+            </label>
+          </div>
+          <div class="form-check form-check-inline">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="sssr" id="barbarossa" value="checkedValue" />
+              Operace Barbarossa
+            </label>
+          </div>
+          <div class="form-check form-check-inline">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="sssr" id="tajfun" value="checkedValue" />
+              Operace Tajfun
+            </label>
+          </div>
+          <div class="form-check form-check-inline">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="sssr" id="battleaxe" value="checkedValue" />
+              Operace Battleaxe
+            </label>
+          </div>
+        </div>
+      </div>
+      <p class="alert alert-success odpoved collapse multi-collapse" id="odpoved8">
+        Operace Barbarossa (<a
+          href="https://cs.wikipedia.org/wiki/Operace_Barbarossa">https://cs.wikipedia.org/wiki/Operace_Barbarossa</a>
+        )
+      </p>
+
+      <p class="alert alert-dark otazka">
+        9. Po čem se USA přidala k Spojencům?
+      </p>
+      <div class="form-group row">
+        <label class="col-md-3 col-form-label">Přepadení</label>
+        <div class="col-md-9">
+          <div class="form-check form-check-inline">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="pearl" id="midway" value="checkedValue" />
+              Bitva o Midway
+            </label>
+          </div>
+          <div class="form-check form-check-inline">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="pearl" id="marco_polo" value="checkedValue" />
+              Nehoda na mostě Marco Polo
+            </label>
+          </div>
+          <div class="form-check form-check-inline">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="pearl" id="filipiny" value="checkedValue" />
+              Vylodění ve Filipínách
+            </label>
+          </div>
+          <div class="form-check form-check-inline">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="pearl" id="pearl_harbor" value="checkedValue" />
+              Útok na Pearl Harbor
+            </label>
+          </div>
+        </div>
+      </div>
+      <p class="alert alert-success odpoved collapse multi-collapse" id="odpoved9">
+        Pearl Harbor (<a
+          href="https://cs.wikipedia.org/wiki/Pearl_Harbor">https://cs.wikipedia.org/wiki/Pearl_Harbor</a>
+        )
+      </p>
+
+      <hr />
+
+      <div class="form-group row">
+        <div class="text-center col-sm-10">
+          <button type="button" class="btn btn-primary" data-toggle="collapse" data-target=".multi-collapse"
+            aria-expanded="false"
+            aria-controls="odpoved1 odpoved2 odpoved3 odpoved4 odpoved5 odpoved6 odpoved7 odpoved8 odpoved9">
+            Řešení kvízu
+          </button>
+        </div>
+      </div>
+    </form>
+  </main>
+  <footer class="jumbotron-fluid mb-0 bg-dark text-warning p-5">
+    <p>&copy; 2021 Ondra Vícha, IT1 SŠPU Opava</p>
+    <p>
+      Zdroje:
+      <a href="https://cs.wikipedia.org/wiki/Koncentra%C4%8Dn%C3%AD_t%C3%A1bor">Koncentrační tábor</a>
+      ,
+      <a href="https://cs.wikipedia.org/wiki/Ob%C4%9Bti_druh%C3%A9_sv%C4%9Btov%C3%A9_v%C3%A1lky">Oběti druhé světové
+        války</a>
+      ,
+      <a href="https://cs.wikipedia.org/wiki/K%C5%99i%C5%A1%C5%A5%C3%A1lov%C3%A1_noc">Křišťálová noc</a>
+      a
+      <a href="https://cs.wikipedia.org/wiki/D%C4%9Bjiny_N%C4%9Bmecka" target="_blank">Dějiny Německa</a><br />
+    </p>
+  </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+
+</html>
