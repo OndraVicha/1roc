@@ -27,6 +27,9 @@ h6{
 p{
     background-color: rgba(214, 136, 18, 0.719);
 }
+p.a{
+    background-color: rgba(12, 9, 6, 0.719);
+}
 header{
     margin-top: 1.5cm;
 }
